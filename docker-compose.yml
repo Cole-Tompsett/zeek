@@ -1,0 +1,44 @@
+version: '3'
+
+networks:
+  zeeknet:
+    driver: ipvlan
+    driver_opts:
+      parent: ens33
+    ipam:
+      config:
+      - subnet: 198.51.100.0/24
+        gateway: 198.51.100.1
+
+
+
+services:
+  zeekboy:
+    build: .
+    container_name: zeektest
+    networks:
+      zeeknet:
+        ipv4_address: 198.51.100.17
+
+    cap_add:
+      - net_raw
+      - net_admin
+
+    tty: true
+
+    volumes:
+      - ${PWD}/zeek_files:/usr/local/zeek/etc
+      - ${PWD}/keys:/root/.ssh
+
+
+
+
+#      - type: bind
+#        source: ${PWD}/zeek_files
+#        target: /usr/local/zeek/etc
+#        read_only: true
+
+#      - type: bind
+#        source: ${PWD}/keys
+#        target: /root/.ssh
+#        read_only: true
