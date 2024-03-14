@@ -1,5 +1,6 @@
 version: '3'
 
+# Creating an ipvlan Docker network so it can monitor the physical network
 networks:
   zeeknet:
     driver: ipvlan
@@ -11,7 +12,7 @@ networks:
         gateway: 198.51.100.1
 
 
-
+#Creating the Zeek container
 services:
   zeek:
     build: .
@@ -24,8 +25,10 @@ services:
       - net_raw   # Need to perform further testing to see if this is required
       - net_admin # Need to perform further testing to see if this is required
 
+#Making the container interactable
     tty: true
 
+#Mounting volumes stored on the host so we don't need to enter the machine to edit the necessary files
     volumes:
       - ${PWD}/zeek_files:/usr/local/zeek/etc
       - ${PWD}/keys:/root/.ssh
