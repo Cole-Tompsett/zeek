@@ -2,15 +2,9 @@
 #
 # Description: This script will configure the two configuration files "node.cfg"
 # and "networks.cfg" for the user. The script will run through some questions
-# related to the information need in the config files and once it recieves the 
+# related to the information needed in the config files and once it receives the 
 # proper input it will print the input to the files. 
 #
-# *note* 
-# This script is pre-configured using test files "example.txt" and "test.txt"
-# You will need to replace example.txt with "nodes.cfg" and test.txt with "networks.cfg"
-# You will also need to make sure the config files are formatted the same way as their
-# testing counteparts
-# *note*
 #
 #
 # Usage: bash Zeek_Config_Script.sh
