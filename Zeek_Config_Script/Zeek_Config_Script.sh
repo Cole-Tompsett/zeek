@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #declaring global variables (uses example file for testing purposes)
-target_file="/home/$USER/zeek_files/etc/node.cfg"
-target_network="/home/$USER/zeek_files/etc/networks.cfg"
+target_file="${PWD}/zeek_files/etc/node.cfg"
+target_network="${PWD}/zeek_files/etc/networks.cfg"
 i=1
 ans="n"
 count=1
