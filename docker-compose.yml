@@ -30,15 +30,3 @@ services:
       - ${PWD}/zeek_files:/usr/local/zeek/etc
       - ${PWD}/keys:/root/.ssh
 
-
-
-
-#      - type: bind
-#        source: ${PWD}/zeek_files
-#        target: /usr/local/zeek/etc
-#        read_only: true
-
-#      - type: bind
-#        source: ${PWD}/keys
-#        target: /root/.ssh
-#        read_only: true
