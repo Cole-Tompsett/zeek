@@ -2,6 +2,7 @@ FROM zeek/zeek:5.2 as builder
 
 RUN apt-get update 
 
+#downloading necessary packages
 RUN apt-get install -y --no-install-recommends nano \
 iproute2 \
 openssh-client \
@@ -21,11 +22,12 @@ swig \
 zlib1g-dev \
 inetutils-ping
 
+#creating a ssh keypair and then deleting it so that the .ssh folder is created for us
 RUN ssh-keygen -t rsa -f /root/.ssh/example -N ""
-
 RUN rm -f /root/.ssh/example
 RUN rm -f /root/.ssh/example.pub
 
+#copying missing files that Zeek needs to run to the correct folder 
 RUN cp /usr/lib/x86_64-linux-gnu/libssl.so.1.1 /usr/local/zeek/lib/
 RUN cp /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1 /usr/local/zeek/lib/
 
