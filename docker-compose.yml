@@ -13,16 +13,16 @@ networks:
 
 
 services:
-  zeekboy:
+  zeek:
     build: .
-    container_name: zeektest
+    container_name: zeek
     networks:
       zeeknet:
         ipv4_address: 198.51.100.17
 
     cap_add:
-      - net_raw
-      - net_admin
+      - net_raw   # Need to perform further testing to see if this is required
+      - net_admin # Need to perform further testing to see if this is required
 
     tty: true
 
