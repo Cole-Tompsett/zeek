@@ -16,3 +16,9 @@ The following is included in this github repository:
 - Documentation and research notes completed in the Winter of 2024
 
 *Note\* It is NOT RECOMMENDED to keep the same keys as provided in the "keys" folder. You should make your own keys and replace the "known_hosts" folder with your own. 
+
+## Usage
+```bash
+docker-compose build
+docker-compose up -d
+```
