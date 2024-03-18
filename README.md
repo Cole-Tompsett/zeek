@@ -17,6 +17,13 @@ The following is included in this github repository:
 
 *Note\* It is NOT RECOMMENDED to keep the same keys as provided in the "keys" folder. You should make your own keys and replace the "known_hosts" folder with your own. 
 
+## Configure
+*under construction
+- compose file
+- Zeek Config Script
+- Keys folder 
+
+
 ## Usage
 ```bash
 docker-compose build
