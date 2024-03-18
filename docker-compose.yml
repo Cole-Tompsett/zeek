@@ -21,9 +21,6 @@ services:
       zeeknet:
         ipv4_address: 198.51.100.17
 
-    cap_add:
-      - net_raw   # Need to perform further testing to see if this is required
-      - net_admin # Need to perform further testing to see if this is required
 
 #Making the container interactable
     tty: true
