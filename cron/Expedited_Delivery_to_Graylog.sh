@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ip_address=198.51.100.22
+ip_address= #UPDATE
 
 cat /usr/local/zeek/logs/current/conn.log | nc $ip_address 5555
 #cat /usr/local/zeek/logs/current/conn.log | nc $ip_address input_port
