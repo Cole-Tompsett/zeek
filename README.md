@@ -17,6 +17,10 @@ The following is included in this github repository:
 
 *Note\* It is NOT RECOMMENDED to keep the same keys as provided in the "keys" folder. You should make your own keys and replace the "known_hosts" folder with your own. 
 
+## Research Documentation: 
+All research documentation can be found in the Docment Links file: 
+(https://github.com/Cole-Tompsett/zeek/blob/main/Document%20Links.md)
+
 ## Configuration
 *under construction
 - compose file
@@ -31,5 +35,5 @@ docker-compose up -d
 ```
 
 ## Graylog Tool
-The following is the [graylog tool] that is also aliged to the zeek tool:
+The following is the graylog tool that is also aliged to the zeek tool:
 (https://github.com/Cole-Tompsett/graylog)
