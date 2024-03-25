@@ -29,3 +29,7 @@ The following is included in this github repository:
 docker-compose build
 docker-compose up -d
 ```
+
+## Graylog Tool
+The following is the [graylog tool] that is also aliged to the zeek tool:
+(https://github.com/Cole-Tompsett/graylog)
