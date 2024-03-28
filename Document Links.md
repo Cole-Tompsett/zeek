@@ -1,5 +1,5 @@
 # DOCUMENT LINKS:
-Below is all of the research notes that has been completed. These are all on Google Documents. 
+Below are all of the research notes that have been completed. These are all on Google Documents. 
 You, as the user will be able to view the documents from your web browser by clicking the link that is provided to you. Although, you will not be able to edit the research work that has been completed. 
 
 ## LINKS: 
@@ -7,7 +7,7 @@ You, as the user will be able to view the documents from your web browser by cli
 ### Our Project Outline: 
 (https://docs.google.com/document/d/1Sj8CEVgCZ3enn6J5A23sUnh9dANkKaQgplzKqe0DmHQ/edit?usp=sharing)
 
-### Inferstucture Report: 
+### Infrastructure Report: 
 (https://docs.google.com/document/d/1TRukiD3OgF7QHMpYA1trvATQX2xd0QGAuQL6bARByZU/edit?usp=sharing)
 
 ### Docker Container Setup: 
@@ -26,6 +26,6 @@ You, as the user will be able to view the documents from your web browser by cli
 (https://docs.google.com/document/d/1CCQ_CQK-UrMZA-XTaIfRucw9enCv4MDYC2bN62i8yD4/edit?usp=sharing)
 
 ## VIDEOS: 
-Graylog setup assistance gathered from the following youtube video: 
+Graylog setup assistance was gathered from the following YouTube video: 
 "Graylog: Your Comprehensive Guide to Getting Started Open Source Log Management"
 (https://www.youtube.com/watch?v=DwYwrADwCmg) 
