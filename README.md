@@ -22,12 +22,14 @@ All research documentation can be found in the Document Links file:
 (https://github.com/Cole-Tompsett/zeek/blob/main/Document%20Links.md)
 
 ## Configuration
-To effectively use this tool you will need to appropriately configure the following:
-- compose file
-- Zeek Config Script
-- Keys folder
+To effectively use this tool you will need to configure the following appropriately:
 
-For information on how to configure these navigate to the folder of the files you want to configure and then enter the "Quick_Start" folder which will guide you on how to configure it
+- compose file(s)
+- keys folder
+- Zeek_Config_Script
+
+To learn more on how to edit these follow the guide provided in the "Quick_Start" folder
+
 
 
 ## Usage
