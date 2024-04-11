@@ -1,7 +1,13 @@
 # DOCUMENT LINKS:
 Below are all of the research notes that have been completed. These are all on Google Documents. 
 You, as the user will be able to view the documents from your web browser by clicking the link that is provided to you. Although, you will not be able to edit the research work that has been completed. 
+Before deploying our tool, we recomend you that you view our project outline to gain a general knowledge of our goals for this project with Zeek, Graylog, and Docker Compose. 
 
+# SETUP: 
+It is recomened that the you do set up this tool in the following order: 
+1. Zeek - The network monitor to make sure that it is working. We had to use a lower version of zeek due to scaiblity issues that we have originally encountered.
+2. Graylog - The application that will display all of the logs that are handed over from zeek to display onto graylog. Later on, dashboards can be set up for certain logs to be viewed.
+3. Docker Compose - This is where all of the automation happens, using a docker compose will allow everything to be packaged and automated smoothly. 
 ## LINKS: 
 
 ### Our Project Outline: 
@@ -29,3 +35,7 @@ You, as the user will be able to view the documents from your web browser by cli
 Graylog setup assistance was gathered from the following YouTube video: 
 "Graylog: Your Comprehensive Guide to Getting Started Open Source Log Management"
 (https://www.youtube.com/watch?v=DwYwrADwCmg) 
+
+Docker Compose Setup Guidance:
+"Docker Compose Tubtorial"
+(https://www.youtube.com/watch?v=HG6yIjZapSA)
