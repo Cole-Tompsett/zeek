@@ -3,7 +3,7 @@ Below are all of the research notes that have been completed. These are all on G
 You, as the user will be able to view the documents from your web browser by clicking the link that is provided to you. Although, you will not be able to edit the research work that has been completed. 
 Before deploying our tool, we recomend you that you view our project outline to gain a general knowledge of our goals for this project with Zeek, Graylog, and Docker Compose. 
 
-# SETUP: 
+# SETUP (Do this order!): 
 It is recomened that the you do set up this tool in the following order: 
 1. Zeek - The network monitor to make sure that it is working. We had to use a lower version of zeek due to scaiblity issues that we have originally encountered.
 2. Graylog - The application that will display all of the logs that are handed over from zeek to display onto graylog. Later on, dashboards can be set up for certain logs to be viewed.
